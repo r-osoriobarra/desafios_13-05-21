@@ -1,11 +1,11 @@
-#juego piedra papel o tijera
+#Juego piedra papel o tijera
 
 #Variables de juego
 randGame = rand(0..2)
 userGame = ARGV[0].to_s
 
-#lógica de juego
-#Si juego piedra
+#Lógica de juego
+#si juego piedra
 if userGame == "piedra"
     if randGame == 1
         puts "Computador juega papel.\nPerdiste."
@@ -14,7 +14,7 @@ if userGame == "piedra"
     else
         puts "Computador juega piedra.\nEmpate."
     end
-#Si juego papel
+#si juego papel
 elsif userGame == "papel"
     if randGame == 0
         puts "Computador juega piedra.\nGanaste."
@@ -23,7 +23,7 @@ elsif userGame == "papel"
     else
         puts "Computador juega papel.\nEmpate."
     end
-#Si juego tijera
+#si juego tijera
 elsif userGame == "tijera"
     if randGame == 0
         puts "Computador juega piedra.\nPerdiste."
