@@ -2,7 +2,7 @@
 
 #Variables de juego
 randGame = rand(0..2)
-userGame = ARGV[0].to_s
+userGame = ARGV[0]
 
 #Lógica de juego
 #si juego piedra
